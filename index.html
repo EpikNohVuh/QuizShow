@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Quiz Game - How Smart Our You?</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" class="css">
+    <script src="assets/javascript/game.js/"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="jumbotron text-center">
+            <h1>Welcome to...<br>IDIOTS TRIVIA</h1>
+        </div>
+
+        <div class="col=md-12 text-center" id="welcome">
+            <div class="row-md-3 justify-content-center h2">Pst.... click START to get started!</div>
+
+            <button class="row-md-3 justify-content-center p-3 text-white bg-success rounded h2 mt-3" id="start">START</button>
+
+        </div>
+
+<div class="question-box hide" id="QandA">
+        <div class="card-deck justify-content-center">
+
+            <div class="card border-info mb-3" style="max-width: 18rem;">
+                <div class="card-header text-white bg-primary justify-content-center text-center">Correct Answers</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title text-center" id="correctAnswers">0</h5>
+                </div>
+            </div>
+
+            <div class="card border-info mb-3" style="max-width: 18rem;">
+                <div class="card-header text-white bg-primary text-center">Timer</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title text-center" id="timer"></h5>
+
+                </div>
+            </div>
+
+            <div class="card border-info mb-3" style="max-width: 18rem;">
+                <div class="card-header text-white bg-primary text-center">Wrong Answers</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title text-center" id="wrongAnswers">0</h5>
+
+                </div>
+            </div>
+           
+        </div>
+        
+        <div class="row ">
+            <div class="col-lg-10 card-title text-center" id="feedback">LET'S GET STARTED!
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-10">
+                <div class="card-header text-white bg-primary">Your Question:</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title" id="question">Your Question Here.</h5>
+
+                </div>
+            </div>
+           
+        </div>
+
+
+
+        <div class="row justify-content-center" id="answer-buttons">
+            <button class="btn col-md-4 border border-info btn-light rounded p-3 m-3" id="answer1">Answer 1.</button>
+            <button class="btn col-md-4 border border-info btn-light rounded p-3 m-3" id="answer2">Answer 2.</button>
+        </div>
+        <div class="row justify-content-center" id="answer-buttons">
+            <button class="btn col-md-4 border border-info btn-light rounded p-3 m-3" id="answer3">Answer 3.</button>
+            <button class="btn col-md-4 border border-info btn-light rounded p-3 m-3" id="answer4">Answer 4.</button>
+        </div>
+
+        <div class="row ">
+            <div class="col-lg-10 card-title text-center" id="progress">Question X of Y.</div>
+        </div>
+    </div> <!--- end of div.question box --->
+     
+
+    </div> <!--- end of div.container --->
+
+
+   
+</body>
+</html>
