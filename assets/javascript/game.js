@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
             $("#feedback").html("<h1 style='color:red; font-weight:bold'>TIME\'S UP!</h1>" );
             notAnswered++;
             index++;
-            progress++;
+            //progress++;
             clearInterval(setInt);
             setTimeout(startGame, 2200);
         }
